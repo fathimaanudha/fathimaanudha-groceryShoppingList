@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>GroceryShoppingList</title>
+    <link rel="stylesheet" href="./grocery.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body id="slideshow">
+   
+    <div id="demo">
+    <h1><span>GROCERY </span>
+        <span>SHOPPING</span>
+        <span>LIST</span>       
+         
+    </h1>
+    
+    <button id="view" onclick="ajax()">View shopping list</button>
+    <button id="re" onClick="document.location.reload(true)">Reload Page</button>
+     <!-- Select Category -->
+     <div id="select-category">
+        <!-- <label style="border: 2px solid red;background-color: chocolate; width: 80px;"></label>     -->
+        <select name="category-list" id="category-list" onchange="sortList();">
+            <option>All</option>
+            <option>Food Item</option>
+            <option>Health</option>
+            <option>Vegetables</option>
+            <option>Stationary</option>
+            <option>Electronics</option>
+        </select>
+        </div> <br>
+    
+
+   
+   
+   
+        <div class="mydiv">
+            
+            <br>
+                <table id="selectedColumn" class="table tbl table-fixed table-success  table-hover table-striped table-bordered table-sortable">
+                    <tr id="myrow" >
+                        <th class="checkbox">Check</th>
+                        <th class="th-sm">Sl No.</th>
+                        <th  class="th-sm">Name</th>
+                        <th class="th-sm">Quantity</th>
+                        <th class="th-sm">Unit</th>
+                        <th class="th-sm">Department</th>
+                        <th class="th-sm">Notes</th>
+                    </tr>
+                    <tbody id="myTable">
+
+                    </tbody>
+            </table>
+            <img src="./images/image-removebg-preview.png" alt="">
+        </div>
+    
+</div> 
+
+
+    <script src="./ajax.js"></script>
+    
+
+    
+</body>
+</html>

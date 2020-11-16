@@ -1,0 +1,141 @@
+body{
+    background-size: 100%;
+}
+#slideshow {
+    /* background-image: url(../images/kerala-images-photos.jpg); */
+    margin: 0;
+   animation-name: example;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+  
+  
+    background-size: auto;
+   
+    background-repeat:repeat;
+  
+  }
+  @keyframes example {
+    0% {
+      background-color: rgba(201, 247, 132, 0.753);
+    /* opacity:1; */
+  }
+  25%{
+    background-color: rgb(231, 151, 191);
+  /* opacity:0; */
+  }
+  45% {
+    background-color: khaki;
+  /* opacity:1; */
+  }
+  55% {
+    background-color: mediumpurple;
+  /* opacity:0; */
+  }
+  
+  100% {
+    background-color: palegreen;
+  /* opacity:1; */
+  }
+  
+  
+  } 
+
+h1{
+    cursor: default;
+    position: absolute;
+    width: 50%;
+    padding: 3px;
+    margin-top: 2% !important;
+    margin-left: 25%;
+    color: rgb(0, 0, 0);
+    /* text-shadow: black; */
+    text-align: center;
+    display: block;
+    
+}
+h1 span {
+    text-transform: uppercase;
+    position: relative;
+    top: 10px;
+    display: inline-block;
+    -webkit-animation: bounce 0.8s ease infinite alternate;
+    font-size: 50px;
+    color: rgb(29, 17, 17);
+    text-shadow: 0 1px 0 rgb(5, 3, 3), 0 2px 0 rgb(17, 13, 13), 0 3px 0 rgb(29, 22, 22), 0 4px 0 rgb(24, 20, 20),
+      0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+      0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+  }
+
+  h1 span:nth-child(2) {
+    -webkit-animation-delay: 0.2s;
+  }
+  
+  h1 span:nth-child(3) {
+    -webkit-animation-delay: 0.5s;
+  }
+  
+ 
+  /* ANIMATION */
+  @-webkit-keyframes bounce {
+    100% {
+      top: -20px;
+      text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+        0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc,
+        0 50px 25px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+button{
+    border: 8px solid rgba(0, 0, 0, 0.281);
+    background-color: rgba(169, 233, 143, 0.986);
+    margin-top: 7% !important;
+}
+button:hover{
+    background-color: cyan;
+    border: 8px solid rgb(102, 255, 0);
+}
+select{
+    border: 8px solid rgba(0, 0, 0, 0.281);
+    background-color:rgba(169, 233, 143, 0.986);
+    margin-top: 7% !important;
+}
+
+
+select:hover{
+    background-color: cyan;
+    border: 8px solid rgb(102, 255, 0);
+}
+    #demo{
+        text-align: center;
+    }
+    #view{
+        /* margin-top: 6%; */
+        margin-left: 15% !important;
+        float: left !important;
+    }
+    #re{
+        /* margin-top: 6%; */
+        margin-left: 16% !important;
+        float: left !important;
+    }
+    
+   /* td{
+       border: 2px solid rgba(240, 109, 1, 0.253) !important;
+       border-radius: 25%;
+      
+       
+   }
+   th{
+    border: 2px solid rgba(240, 97, 1, 0.356) !important;
+   } */
+   .tbl{
+       background-color: rgba(27, 63, 27, 0.473);
+       width: 70vw !important;
+       height: 9px !important;
+       margin-left: 15%;
+       /* margin-right: 30%; */
+       margin-top: .2%;
+       height: 100px;
+       width:1000px;
+   }
+  

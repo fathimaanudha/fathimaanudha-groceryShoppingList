@@ -1,0 +1,96 @@
+{ 
+    "list":[
+     
+    {
+      
+       "SL_NO" :"1",
+       "NAME" :"Rice",
+       "QUANTITY":"10",
+       "UNIT":"Kg",
+       "DEPARTMENT":"Food Item",
+       "NOTES":"Matta"
+    },
+    {
+        "SL_NO" :"2",
+        "NAME" :"Salt",
+        "QUANTITY":"2",
+        "UNIT":"Kg",
+        "DEPARTMENT":"Food Item",
+        "NOTES":"Powdered only"
+     },
+     {
+        "SL_NO" :"3",
+        "NAME" :"Soap",
+        "QUANTITY":"3",
+        "UNIT":"Number",
+        "DEPARTMENT":"Health",
+        "NOTES":"Pears"
+     },
+     {
+        "SL_NO" :"4",
+        "NAME" :"Face Mask",
+        "QUANTITY":"10",
+        "UNIT":"Number",
+        "DEPARTMENT":"Health",
+        "NOTES":"Disposable"
+     },
+     {
+        "SL_NO" :"5",
+        "NAME" :"Atta",
+        "QUANTITY":"2",
+        "UNIT":"Kg",
+        "DEPARTMENT":"Food Items",
+        "NOTES":"Aashirvad"
+     },
+     {
+        "SL_NO" :"6",
+        "NAME" :"Hand Wash",
+        "QUANTITY":"2",
+        "UNIT":"Number",
+        "DEPARTMENT":"Health",
+        "NOTES":"Detol"
+     },
+     {
+        "SL_NO" :"7",
+        "NAME" :"Tomato",
+        "QUANTITY":"2",
+        "UNIT":"Kg",
+        "DEPARTMENT":"Vegetables",
+        "NOTES":"Fresh and large"
+     },
+     {
+        "SL_NO" :"8",
+        "NAME" :"Potato",
+        "QUANTITY":"1",
+        "UNIT":"Kg",
+        "DEPARTMENT":"Vegetables",
+        "NOTES":"Small"
+     },
+     {
+        "SL_NO" :"9",
+        "NAME" :"Book",
+        "QUANTITY":"2",
+        "UNIT":"Number",
+        "DEPARTMENT":"Stationary",
+        "NOTES":"Small and lined"
+     },
+     {
+        "SL_NO" :"10",
+        "NAME" :"Pen",
+        "QUANTITY":"5",
+        "UNIT":"Number",
+        "DEPARTMENT":"Stationary",
+        "NOTES":"Blue"
+     },
+     {
+        "SL_NO" :"11",
+        "NAME" :"Bulb",
+        "QUANTITY":"2",
+        "UNIT":"Number",
+        "DEPARTMENT":"Electronics",
+        "NOTES":"LED"
+     }
+
+
+]
+}
